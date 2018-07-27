@@ -2,6 +2,8 @@ import nltk
 from nltk.util import ngrams
 def possible_combination(text,n):
     token = nltk.word_tokenize(text)
+    print("Please provide the output of tokenization")
+    print(token)
     possible_combination_n=ngrams(token,n)
     return possible_combination_n
 #Writtemn three text
